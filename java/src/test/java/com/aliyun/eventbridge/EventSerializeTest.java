@@ -16,7 +16,7 @@ public class EventSerializeTest extends TestCase {
 
     private final String JSON_OBJECT_EVENT = "[{\"datacontenttype\":\"application/json\",\"data\":{\"bus\":\"demo\"}}]";
 
-    private final String JSON_OBJECT_EMPTY_EVENT = "[{\"data\":{\"bus\":\"demo\"}}]";
+    private final String JSON_OBJECT_EMPTY_EVENT = "[{\"data1\":{\"bus\":\"demo\"}}]";
 
     private final String JSON_ARRAY_EVENT = "[{\"datacontenttype\":\"application/json\",\"data\":[{\"bus\":\"demo\"},"
         + "{\"bus\":\"demo\"}]}]";
